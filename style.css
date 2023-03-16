@@ -1,17 +1,30 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  /* fontes para navegadores */
+  /* firefox*/
+  -webkit-font-smoothing:  antialiased; 
+  /* mozila*/
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
   text-align: center;
   padding-top: 160px;
-  background-image: url(image.jpg);
+  background-image: url(assets/background-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
-  height: 100vh;
+    
+  height: 100vh; 
+  font-family: 'Inter', sans-serif;
+
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
 }
 
 h3 span {
@@ -23,12 +36,16 @@ h1 {
   font-weight: 400;
   font-size: 64px;
   line-height: 80px;
+
+  font-family: 'Emilys Candy', cursive;
 }
 
 p {
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 72px;
+  color: white;
+  opacity: .7;
 }
 
 a {
@@ -36,10 +53,14 @@ a {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  color: white;
+  opacity: .6;
 }
+
 a:hover, 
 .btn-primary {
   text-decoration: none;
   color: black;
-  background-color: #FFC700; 
+  background-color: #FFC700;
+  opacity: 1;
 }
