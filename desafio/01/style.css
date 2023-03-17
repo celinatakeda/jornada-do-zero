@@ -29,5 +29,26 @@ span {
 
 p {
   font-family: 'Inter', sans-serif;
-  font-weight: 400
+  color: #2C2E2F;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin-bottom: 72px;
+}
+
+a {
+  color: #151718;
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+a:hover,
+.btn-primary {
+  background: #DB2777;
+  border-radius: 50px;
+  color: #0B0C0E;
+  text-decoration: none;
 }
