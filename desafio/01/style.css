@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background: url(assets/background-image.jpg) no-repeat center/cover;
+  height: 100vh;
+
+}
+
+h1 {
+  font-weight: 700;
+}
